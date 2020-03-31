@@ -15,46 +15,46 @@ GAUTHIER Charlotte***
 
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la première page de la section 6 ; de quoi parle cette section ?**
 
- **Commande man**: Permet d'avoir le manuel d'une commande  
- **Commande which** : localiser une commande, renvoit le chemin des fichiers passé en argument  
+- **Commande man**: Permet d'avoir le manuel d'une commande  
+- **Commande which** : localiser une commande, renvoit le chemin des fichiers passé en argument  
   Dans man, comment peut-on rechercher un terme --> Une fois le manuel ouvert */[termeRecherché]*  
   On quitte la manuel en appuyant sur la touche **Q**  
-  **man 6 intro** : Information sur une section, affiche la première page de la section 6, chaque section de la bibliothéque man possède des informations différente. La section 6 décrit les jeux et petit programmes amusant disponible sur le système. 
+-  **man 6 intro** : Information sur une section, affiche la première page de la section 6, chaque section de la bibliothéque man possède des informations différente. La section 6 décrit les jeux et petit programmes amusant disponible sur le système. 
 
 ## Prise en main de l’interpréteur de commandes --> Navigation dans l’arborescence des fichiers 
 
 **1. allez dans le dossier /var/log** 
-Dossier var/log --> cd /var/log
+- Dossier var/log --> cd /var/log
 
 **2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**
-Remonté dans le dossier de var --> cd ..
+- Remonté dans le dossier de var --> cd ..
 
 **3. retournez dans le dossier personnel**
- Remonté dans le dossier personnel --> cd 
+- Remonté dans le dossier personnel --> cd 
  
 **4. revenez au dossier précédent (/var) sans utiliser de chemin**
 
 **5. essayez d’accéder au dossier /root ; que se passe-t-il ?**
-Si on essaye d'accèder au dossier root --> permission denied --> on n'a pas les droits
+- Si on essaye d'accèder au dossier root --> permission denied --> on n'a pas les droits
 
 **6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez**
- Avec la commande sudo root --> Commande not found car sudo exécute un programme. 
+- Avec la commande sudo root --> Commande not found car sudo exécute un programme. 
  
 **7. à partir de votre dossier personnel, créez l’arborescence suivante :**
-Créer l'arborescence -- > mkdir Dossier1 Dossier2 Dossier2/Dossier2.1 Dossier2/Dossier2.2; touch Dossier1/Fichier1 Dossier2/Dossier2.2/Fichier2 Dossier2/Dossier2.2/Fichier3
+- Créer l'arborescence -- > mkdir Dossier1 Dossier2 Dossier2/Dossier2.1 Dossier2/Dossier2.2; touch Dossier1/Fichier1 Dossier2/Dossier2.2/Fichier2 Dossier2/Dossier2.2/Fichier3
 
 **8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?**
- Suppresion --> rm Fichier1 --> fonctionne très bien cependant rm Dossier1 ne fonctionne pas 
+ - Suppresion --> rm Fichier1 --> fonctionne très bien cependant rm Dossier1 ne fonctionne pas 
 
 **9. quelle commande permet de supprimer un dossier ?**
-Pour supprimer un dossier il faut utiliser rmdir uniquement si le dossier est vide 
+- Pour supprimer un dossier il faut utiliser rmdir uniquement si le dossier est vide 
 
 **10. que se passe-t-il quand on applique cette commande à Dossier2 ?**
-Si on applique dans dossier 2 rmdir cela ne fait rien car le dossier n'est pas vide 
+- Si on applique dans dossier 2 rmdir cela ne fait rien car le dossier n'est pas vide 
 
 **11. comment supprimer en une seule commande Dossier2 et son contenu ?**
-Il faut utiliser rm -r Dossier2 pour supprimer le dossier2 
+- Il faut utiliser rm -r Dossier2 pour supprimer le dossier2 
 
 ## Prise en main de l’interpréteur de commandes --> Commandes importantes
 
@@ -118,16 +118,20 @@ lignes 10 à 20**
 
 **16. Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page
 de manuel de ce fichier ?**
-ect/passw --> les informations sur les comptes utilisateur 
-man 5 passwd  --> permet d'avoir plus d'information sur ect/passw
+- ect/passw --> les informations sur les comptes utilisateur 
+- man 5 passwd  --> permet d'avoir plus d'information sur ect/passw
+
 **17. Affichez seulement la première colonne triée par ordre alphabétique inverse**
-Colonne trie ordre alphabétique inverse --> sort -r ect/passw | cut -d: -f1
+- Colonne trie ordre alphabétique inverse --> sort -r ect/passw | cut -d: -f1
+
 **18. Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seulement les utilisateurs connectés) ?**
-Pour le nombre d'utilisateur qui on un compte --> reprendre la commande d'avant et ajouter | wc -l  ( wc permet de compter le nombre de ligne) 
+- Pour le nombre d'utilisateur qui on un compte --> reprendre la commande d'avant et ajouter | wc -l  ( wc permet de compter le nombre de ligne) 
+
 **19. Combien de pages de manuel comportent le mot-clé conversion dans leur description ?**
-Combien de page du manuel comporte 'conversion' --> man -k conversion |wc -l
+- Combien de page du manuel comporte 'conversion' --> man -k conversion |wc -l
+
 **20. A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine**
-Trouvé passeword et copier dans un fichier --> sudo find -name "passw" > list_passwd_files.txt
+- Trouvé passeword et copier dans un fichier --> sudo find -name "passw" > list_passwd_files.txt
 
 
 
