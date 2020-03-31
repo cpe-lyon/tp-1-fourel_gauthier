@@ -5,22 +5,8 @@ GAUTHIER Charlotte***
 # Compte rendu TP1
 ========================
 
-
-## Exercice 1. Commandes de base ##
-
- **1. Quels sont les 5 derniers paquets installés sur votre machine ?**
- 
-
- **2. Utiliser dpkg et apt pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ?** 
-
-
-## Exercice 6. Installation d’un paquet par PPA
-
- *Certains logiciels ne figurent pas dans les dépôts officiels. C’est le cas par exemple de la version ”officielle” de Java depuis qu’elle est développée par Oracle. Dans ces cas, on peut parfois se tourner vers un ”dépôt personnel” ou PPA.* 
- **1. Installer la version Oracle de Java (avec l’ajout des PPA) sudo add-apt-repository ppa:linuxuprising/java sudo apt update sudo apt install oracle-java11-installer 
- 2.  Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?**
-
-
+ **1. A l’aide du manuel, identifiez le rôle de la commande which**
+ bla bla 
 
 ## Prise en main de l’interpréteur de commandes --> Manuel
 
