@@ -8,8 +8,11 @@ GAUTHIER Charlotte***
 ## Prise en main de l’interpréteur de commandes --> Manuel
 
 **1. A l’aide du manuel, identifiez le rôle de la commande which**
+
 **2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de which ?**
+
 **3. Comment quitte-t-on le manuel ?**
+
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la première page de la section 6 ; de quoi parle cette section ?**
 
  **Commande man**: Permet d'avoir le manuel d'une commande  
@@ -20,18 +23,27 @@ GAUTHIER Charlotte***
 
 ## Prise en main de l’interpréteur de commandes --> Navigation dans l’arborescence des fichiers 
 
-**1. allez dans le dossier /var/log**  Dossier var/log --> cd /var/log
-**2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**  Remonté dans le dossier de var --> cd ..
+**1. allez dans le dossier /var/log** 
+Dossier var/log --> cd /var/log
+
+**2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**
+Remonté dans le dossier de var --> cd ..
+
 **3. retournez dans le dossier personnel**
  Remonté dans le dossier personnel --> cd 
+ 
 **4. revenez au dossier précédent (/var) sans utiliser de chemin**
+
 **5. essayez d’accéder au dossier /root ; que se passe-t-il ?**
 Si on essaye d'accèder au dossier root --> permission denied --> on n'a pas les droits
+
 **6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez**
  Avec la commande sudo root --> Commande not found car sudo exécute un programme. 
+ 
 **7. à partir de votre dossier personnel, créez l’arborescence suivante :**
 Créer l'arborescence -- > mkdir Dossier1 Dossier2 Dossier2/Dossier2.1 Dossier2/Dossier2.2; touch Dossier1/Fichier1 Dossier2/Dossier2.2/Fichier2 Dossier2/Dossier2.2/Fichier3
 - Suppresion --> rm Fichier1 --> fonctionne très bien cependant rm Dossier1 ne fonctionne pas 
+
 **8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?**
 **9. quelle commande permet de supprimer un dossier ?**
