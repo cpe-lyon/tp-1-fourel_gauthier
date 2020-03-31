@@ -1,5 +1,4 @@
-***FOUREL Raphael
-GAUTHIER Charlotte***
+***FOUREL Raphael / GAUTHIER Charlotte***
  
  
 # Compte rendu TP1
