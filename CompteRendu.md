@@ -24,18 +24,18 @@ GAUTHIER Charlotte***
 ## Prise en main de l’interpréteur de commandes --> Navigation dans l’arborescence des fichiers 
 
 **1. allez dans le dossier /var/log** 
-- Dossier var/log --> cd /var/log
+> Dossier var/log --> cd /var/log
 
 **2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**
-- Remonté dans le dossier de var --> cd ..
+> Remonté dans le dossier de var --> cd ..
 
 **3. retournez dans le dossier personnel**
-- Remonté dans le dossier personnel --> cd 
+> Remonté dans le dossier personnel --> cd 
  
 **4. revenez au dossier précédent (/var) sans utiliser de chemin**
 
 **5. essayez d’accéder au dossier /root ; que se passe-t-il ?**
-- Si on essaye d'accèder au dossier root --> permission denied --> on n'a pas les droits
+> Si on essaye d'accèder au dossier root --> permission denied --> on n'a pas les droits
 
 **6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez**
 - Avec la commande sudo root --> Commande not found car sudo exécute un programme. 
