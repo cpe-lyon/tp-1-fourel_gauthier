@@ -6,9 +6,9 @@
 
 ## Prise en main de l’interpréteur de commandes --> Manuel
 
-### 1. A l’aide du manuel, identifiez le rôle de la commande which
+#### 1. A l’aide du manuel, identifiez le rôle de la commande which
 
-### 2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de which ?
+#### 2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de which ?
 
 ### 3. Comment quitte-t-on le manuel ?
 
