@@ -93,7 +93,7 @@ File --> Détermine le type d'un fichier
 - Si on supprime toto, titi reste en place avec son contenue
 
 ### 12. Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle conséquence cela a-t-il sur tutu ?
-- Avec le lien symbolique (ls -s titi tutu), le fichier tutu récupere titi, si on modifie titi, le fichier tutu a le même contenu. Si on supprime titi, le fichier tutu n'existe plus (il apparait en rouge) on ne peut plus l'ouvrir. Le lien symbolique peut etre vu comme un raccourci d'un dossier, tandis que le lien normal est plus la copie d'un dossier qui reste à jour car il est liée.
+Avec le lien symbolique (ls -s titi tutu), le fichier tutu récupere titi, si on modifie titi, le fichier tutu a le même contenu. Si on supprime titi, le fichier tutu n'existe plus (il apparait en rouge) on ne peut plus l'ouvrir. Le lien symbolique peut etre vu comme un raccourci d'un dossier, tandis que le lien normal est plus la copie d'un dossier qui reste à jour car il est liée.
 
 ### 13. Affichez à l’écran le fichier /var/log/syslog. Quels raccourcis clavier permettent d’interrompre et reprendre le défilement à l’écran ?
 Pour interrompre le défilement CRTL +S pour reprendre CTRL + Q
